@@ -154,6 +154,10 @@ body{
 .auth-nav .link:hover .auth-nav-phone {
    fill: var(--accent-color);
 }
+.auth-nav .link:focus .auth-nav-icon,
+.auth-nav .link:focus .auth-nav-phone {
+   fill: var(--accent-color);
+}
 
 /*hero*/
 .hero{
@@ -447,7 +451,8 @@ body{
    background-color: var(--footer-bg);
    fill: var(--background-color);
 }
-.footer-link:hover{
+.footer-link:hover,
+.footer-link:focus{
    background-color: var( --accent-color);
    fill: var(--background-color);
 }
